@@ -1,4 +1,4 @@
-# Juan_bilibili — Language-Agnostic Video Dubbing Pipeline
+# Language-Agnostic Video Dubbing Pipeline
 
 Automated dubbing pipeline that turns a video in **any source language** into
 **any target language**, using a **cloned reference voice** (OmniVoice).
