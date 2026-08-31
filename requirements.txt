@@ -1,0 +1,24 @@
+# Transcrição (Apple Silicon — mlx-whisper)
+mlx-whisper>=0.4.0
+mlx>=0.31
+
+# TTS (voice cloning OmniVoice)
+omnivoice>=0.1.0
+torch>=2.0
+torchaudio>=2.0
+numpy
+soundfile
+
+# Áudio / sincronização
+pydub>=0.25
+imageio-ffmpeg>=0.6
+
+# API / utilidades
+requests
+
+# QC pós-TTS (verificar_audios.py — Whisper + fuzzy)
+openai-whisper
+rapidfuzz
+
+# Download de vídeos (opcional)
+yt-dlp

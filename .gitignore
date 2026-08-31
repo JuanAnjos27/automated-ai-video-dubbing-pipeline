@@ -1,0 +1,28 @@
+# Sistema / macOS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Ambiente / segredos — NUNCA commitar
+.env
+.env.local
+*.api_key
+.runpod_api_key
+
+# Mídia e artefatos do pipeline (grandes e/ou pessoais)
+Em produção/
+Prontos/
+audios_blocos/
+
+# Relatórios locais de QA/diagnóstico
+pipeline_llm_local/reports/
+
+# Voz de referência (pessoal) — forneça localmente: referencias/voz_juan_zh.mp3
+referencias/*.mp3
+referencias/*.wav
